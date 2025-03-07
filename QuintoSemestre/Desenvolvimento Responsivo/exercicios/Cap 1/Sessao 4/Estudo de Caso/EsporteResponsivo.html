@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulário</title>
+    <link rel="stylesheet" href="styleEsporteResponsivo.css">
+</head>
+<body>
+    <form action="/processar" method="post">
+        <h1>Formulário da Esporte Responsivo</h1>
+
+        <label for="nome">Qual seu nome?</label>
+        <input type="text"  id="nome" name="nome" required minlength="3" placeholder="Nome">
+        <br>
+        <label for="idade">Qual sua idade?</label>
+        <input type="number" id="idade" name="idade" required min="12">
+        <br>
+        <label for="opiniao">Qual produto gostou mais?</label>
+        <input type="text" id="opiniao" name="opiniao" required placeholder="Nome do produto">
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+/*Region Estilo para o exemplo*/
+h1.tituloExemplo {
+    color: black;
+    font-family: monospace;
+}
+/*Endregion Estilo para o exemplo*/
+
+
+
+:root {
+    background-color: #dec8c8;
+}
+
+li:nth-child(3) {
+    color: red;
+    font-weight: bold;
+}
+
+.nthlastchild p:nth-last-child(1) {
+    color: green;
+}
+
+.nthoftype p:nth-of-type(2) {
+    font-weight: bold;
+}
+
+.onlyoftype span:only-of-type {
+    color: orange;
+}
+
+.lastchild p:last-child {
+    text-decoration: underline;
+}
+
+p:only-child{
+    background-color: gray;
+}
+
+.empty div:empty {
+    border: 2px dashed red;
+}

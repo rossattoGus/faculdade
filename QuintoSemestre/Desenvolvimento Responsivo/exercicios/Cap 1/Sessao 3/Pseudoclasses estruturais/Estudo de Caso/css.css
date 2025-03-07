@@ -1,0 +1,18 @@
+:root {
+    background-color: #00ffff;
+}
+
+a {
+    background-color: #a4a1f9;
+    color: #000000;
+}
+
+p:first-letter {
+    font-size: large;
+    font-family:fantasy;
+}
+
+a:hover, a:focus {
+    background-color: blue;
+    color: #ffffff;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Pseudoclasses estruturais</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div>
+        <h1 class="tituloExemplo">:root</h1>
+        <p>Seleciona todo o html</p>
+    </div>
+    <div>
+        <h1 class="tituloExemplo">:nth-child()</h1>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3 (Vermelho)</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+        </ul>
+    </div>
+
+    <div class="nthlastchild">
+        <h1 class="tituloExemplo">:nth-last-child()</h1>
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2 </p>
+        <p>Parágrafo 3 (verde)</p>
+    </div>
+
+    <div class="nthoftype">
+        <h1 class="tituloExemplo">:nth-of-type</h1>
+        <p>Paragrafo 1</p>
+        <span>Span 1</span>
+        <p>Paragrafo 2 (negrito)</p>
+        <p>Paragrafo 3</p>
+    </div>
+
+    <div class="onlyoftype">
+        <h1 class="tituloExemplo">:only-of-type</h1>
+        <p>Parágrafo 1</p>
+        <span>Span único (laranja)</span>
+        <p>Parágrafo 2</p>
+    </div>
+
+    <div class="lastchild">
+        <h1 class="tituloExemplo">:last-child</h1>
+        <p>Parágrafo 1</p>        
+        <p>Parágrafo 2</p>        
+        <p>Parágrafo 3 (sublinhado)</p>        
+    </div>
+
+    <div>
+        <h1 class="tituloExemplo">:only-child</h1>
+        <div>
+            <p>Parágrafo único (fundo cinza)</p>
+        </div>
+
+        <div>
+            <p>Parágrafo 1</p>
+            <p>Parágrafo 2</p>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="tituloExemplo">:empty</h1>
+        <div></div>
+        <div>Texto</div>
+    </div>
+</body>
+</html>

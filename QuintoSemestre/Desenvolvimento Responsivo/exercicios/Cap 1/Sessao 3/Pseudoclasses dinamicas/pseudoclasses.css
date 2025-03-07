@@ -1,0 +1,51 @@
+/*region exemplo active*/
+button.active {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.active:active {
+    background-color: #2980b9; /* Muda para um tom mais escuro ao clicar */
+    transform: scale(0.98); /* Dá um efeito de "apertar" o botão */
+}
+/*endregion exemplo active*/
+
+/*region exemplo :hover*/
+img {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+/*endregion exemplo :hover*/
+
+/*region exemplo :focus*/
+button.focus {
+    background-color: #2ecc71;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button.focus:focus {
+    background-color: #27ae60; /* Fica mais escuro quando focado */
+    outline: 3px solid #145a32; /* Adiciona um contorno para melhor acessibilidade */
+}
+/*endregion exemplo :focus*/
+
+/*region exemplo :checked*/
+input:checked ~ label { /*Sempre que um <input> do tipo checkbox estiver marcado (:checked), 
+                        todos os <label> que forem irmãos e vierem depois dele mudarão de cor para verde.*/
+    background-color: green;
+}
+/*endregion exemplo :checked*/

@@ -1,0 +1,15 @@
+input:valid {
+    border-color: #090;
+}
+
+input:invalid {
+    border-color: #900;
+}
+
+/*region correção*/
+input:required ~ label::after {
+    content: " required";
+    font-size: 0.8em;
+    color: #000;
+}
+/*endregion correção*/

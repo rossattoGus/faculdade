@@ -1,0 +1,11 @@
+.heading {
+    color: yellow;
+    background-color: blue;
+    margin: 0 0 1rem;
+}
+
+.titleHighlighted {
+    composes: heading;
+    padding: 1rem 2rem;
+    text-align: center;
+}

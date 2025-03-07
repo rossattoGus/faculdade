@@ -1,0 +1,22 @@
+h1 {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+p.key {
+    color: red;
+}
+
+[type='button'] {
+    color: blue;
+    background-color: aquamarine;
+    font-style: italic;
+    font-weight: bold;
+    size: 110%;
+}
+
+#seletorId {
+    color: cadetblue;
+    font-style: italic;
+    font-weight: bold;
+}

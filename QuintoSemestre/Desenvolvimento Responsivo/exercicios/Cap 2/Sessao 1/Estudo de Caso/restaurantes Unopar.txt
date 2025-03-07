@@ -1,0 +1,29 @@
+- Esboce a organização do conteúdo do aplicativo, colocando-o dentro de uma hierarquia
+    - O cliente tem uma pequena hamburgueria, então não vamos nos preocupar com navegadores legado
+    - O objetivo é divulgação, portanto algumas fotos dos lanches e cardápio já irão sanar o problema
+defina os padrões de navegação
+    - O padrão de navegação vai ser o "faça muito pouco" pelo nível de alcance da hamburgueria
+faça um inventário
+    - fotos 
+    - cardápio
+atribua níveis de prioridades
+    1 - Fotos chamando a atenção do usuário
+    2 - pequenas descrições dos ingredientes
+    3 - endereço e contatos
+identifique sequências de caminhos que os usuários poderão percorrer nesse aplicativo.
+    - Cair já nas fotos dos hamburgueres para chamar a atenção (tipos mais requisitados)
+    - Link ou foto do cardápio
+    - endereço e formas de contato
+
+O que eu deveria ter feito:
+Obs: Entender o problema, eu não sabia o que era um guia de restaurante
+
+1. Listar as principais os usuário
+ 1.1. funções potencias
+ 1.2. tarefas mais comuns
+2. Organizar a lista com ordem de prioridade
+ 2.1. Priorizar a UI (User Interface)
+3. Identificar os caminhos que são feitos pelo usuário
+ 3.1. Listar destinos frequentes com destaque em sua navegação
+4. Dividir casos complexos em pequenos casos para facilitar a resolução (ex. busca)
+5. Organizar a hierarquia de conteúdos 

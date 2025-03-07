@@ -1,0 +1,8 @@
+@import url(paragrafo/paragrafo.css);
+h3 {
+    color: violet;
+}
+
+* {
+    background-color: rgb(226, 180, 151);
+}
