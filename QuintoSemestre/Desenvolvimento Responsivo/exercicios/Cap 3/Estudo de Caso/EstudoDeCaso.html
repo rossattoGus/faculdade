@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div>
+    <picture>
+        <source media="(min-width: 300px)" srcset="girl_wolf_croped.jpg">
+        <img src="girl_wolf.jpg" alt="ilustração de uma garota com um lobo">
+    </picture>
+    </div> -->
+    <div>
+        <img 
+            srcset="girl_wolf_croped.jpg 299w,
+                    girl_wolf.jpg 4096w"
+            alt="Corte" 
+            sizes="(max-width: 4095px) 299px, 4096px">
+    </div>
+</body>
+</html>
